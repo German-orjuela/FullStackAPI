@@ -21,7 +21,6 @@
 </ion-content> -->
 
 
-
 <ion-header>
   <ion-navbar>
     <ion-title>Action Sheets</ion-title>
@@ -53,7 +52,7 @@
          {{result.title}} <br>
     </ion-item>
   </ion-list>
-  
+
   <ion-list *ngIf="listC.error == false">
     <ion-item *ngFor="let result of listC.data">
          {{result.codigoprd}} <br>
